@@ -195,7 +195,24 @@ A chat model alone is not the whole workflow.
 
 Your IDE matters. Your test runner matters. Your ability to restart, inspect, compare, and iterate matters.
 
-When you outgrow the limited loop inside an IDE, use tools that can test more of the project end to end. For example, `Devin` can work inside its own environment, run the project, show failures, inspect outputs, and help you see what is actually broken instead of guessing.
+When you outgrow the limited loop inside an IDE, use tools that can test more of the project end to end. This is where I see real value in `Devin AI`.
+
+`Devin` is not just another chat tab. It gives you a workspace with an `IDE`, a `Shell`, and a `Browser`, and the official app entry point is `app.devin.ai`. That matters because once a project starts becoming real, you need more than code generation. You need execution, logs, browser checks, failure reports, and a place where the agent can actually work through the problem instead of only talking about it.
+
+Here is the practical way I think about it:
+
+1. Use your main AI pair inside the IDE to shape the idea, architecture, and first implementation.
+2. Get the project into a state where it is worth testing seriously.
+3. Move that task into `Devin` and let it inspect the repo, run commands, check dependencies, and execute the project in its own workspace.
+4. Watch what breaks in the shell, the app behavior in the browser, and any visible test results or recordings that come out of the session.
+5. Ask Devin to explain the failure clearly, not just patch blindly.
+6. Iterate on the fix, run the checks again, and keep going until the result is stable.
+
+This is important because an IDE chat is often too narrow. It can help you write code, but it does not always give you enough visibility into the full runtime path. `Devin` is closer to having an AI engineer working in a separate environment where it can run the app, inspect logs, debug issues, and validate more of the project from the inside.
+
+For builders, that is powerful. You save time, you reduce blind guessing, and you get faster feedback on what is actually broken. If you are trying to build a product, prototype a startup, or push a project further than a simple code snippet, that matters a lot.
+
+It is still not magic. You still need to give clear instructions, review the outputs, and keep standards high. But used correctly, it can help you test more of the project, see more of the system, and move faster than an IDE-only workflow.
 
 Use the right tool for the stage you are in.
 
