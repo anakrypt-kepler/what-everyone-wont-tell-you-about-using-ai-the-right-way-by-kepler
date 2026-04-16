@@ -18,7 +18,7 @@
 <table align="center">
   <tr>
     <td align="center" width="260">
-      <img src="claude_ai_icon.png" width="220" alt="Claude AI icon" />
+      <img src="claude_ai_icon.jpg" width="220" alt="Claude AI icon" />
     </td>
     <td align="center" width="560">
       <img src="claude_code_banner.jpg" width="520" alt="Claude Code banner" />
