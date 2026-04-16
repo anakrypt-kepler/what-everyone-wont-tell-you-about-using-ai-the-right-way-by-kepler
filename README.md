@@ -49,6 +49,11 @@
   <a href="https://github.com/anakrypt-kepler/Synapsenetai/blob/main/KeplerSynapseNet/interfaces%20txt/IMPLANT_AI_STACK_FOR_SYNAPSENET.txt"><img src="https://img.shields.io/badge/AI_Stack-000000?style=for-the-badge&logo=bookstack&logoColor=white" alt="AI Stack" /></a>
 </p>
 
+<p align="center">
+  <a href="https://claude.ai/"><img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge" alt="Claude" /></a>
+  <a href="https://app.devin.ai/"><img src="https://img.shields.io/badge/Devin_AI-000000?style=for-the-badge" alt="Devin AI" /></a>
+</p>
+
 ---
 
 ## Why I Am Writing This
