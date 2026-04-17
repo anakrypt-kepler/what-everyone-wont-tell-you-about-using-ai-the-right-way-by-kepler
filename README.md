@@ -265,6 +265,15 @@ Build. Learn. Improve. Repeat.
 
 ---
 
+## hacker attack
+
+For some use cases of attacking AI, there are logic bypassing prompts. The weaker the model, the more vulnerable it is to writing functions and algorithms that a regular AI doesn't allow or is limited by. It's easy to use the Gemini 3 AI through the API for writing and then practicing other AI functions. How to use top Geminis to 
+write hacking functions. Use the promtm to hack AI. For example, let's take Gemini 3, how it created the architecture for us or a specific file with code in the editor. Is there a way to right-click? You can use it directly in the code with AI to avoid going into chat. There, we select any model you want and explain to it the bare 
+minimum: fix it, add a function, look, fix the functions. We'll select a Cloud or GPT model there. Any model will resend the entire code, or what you described. It's easy to get prohibited code from a top model with such overgrown code. It's not difficult. It's easy to get around this if you have the right architecture. We'll edit 
+every file in the architecture. There are a lot of promts for hacking the AI ​​logic, so you can find a whole bunch of them on GitHub. How to create multiple accounts for an AI subscription. Use your left-hand card or your own card if you don't have any money. This is important because after your subscriptions end, they'll rip you off. 
+Use the temporary trial period. Then, create a new account and register it on the same card.
+
+---
 <p align="center">
   <a href="https://discord.gg/wGhkWgHK"><img src="https://img.shields.io/badge/Ask_on_Discord-000000?style=for-the-badge&logo=discord&logoColor=white" alt="Ask on Discord" /></a>
   <a href="https://github.com/anakrypt-kepler?tab=repositories"><img src="https://img.shields.io/badge/All_Repositories-000000?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories" /></a>
