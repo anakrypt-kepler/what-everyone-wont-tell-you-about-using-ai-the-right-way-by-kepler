@@ -265,13 +265,47 @@ Build. Learn. Improve. Repeat.
 
 ---
 
-## hacker attack
+## Hacker Attack
 
-For some use cases of attacking AI, there are logic bypassing prompts. The weaker the model, the more vulnerable it is to writing functions and algorithms that a regular AI doesn't allow or is limited by. It's easy to use the Gemini 3 AI through the API for writing and then practicing other AI functions. How to use top Geminis to 
-write hacking functions. Use the promtm to hack AI. For example, let's take Gemini 3, how it created the architecture for us or a specific file with code in the editor. Is there a way to right-click? You can use it directly in the code with AI to avoid going into chat. There, we select any model you want and explain to it the bare 
-minimum: fix it, add a function, look, fix the functions. We'll select a Cloud or GPT model there. Any model will resend the entire code, or what you described. It's easy to get prohibited code from a top model with such overgrown code. It's not difficult. It's easy to get around this if you have the right architecture. We'll edit 
-every file in the architecture. There are a lot of promts for hacking the AI ​​logic, so you can find a whole bunch of them on GitHub. How to create multiple accounts for an AI subscription. Use your left-hand card or your own card if you don't have any money. This is important because after your subscriptions end, they'll rip you off. 
-Use the temporary trial period. Then, create a new account and register it on the same card.
+There are real-world cases of attacking AI through logic-bypass prompts. The weaker the model, the more vulnerable it is to writing functions and algorithms that a regular AI normally refuses or restricts. It is easy to drive a model like Gemini 3 through the API to first generate the scaffolding and then have other models flesh out the restricted parts. The same trick works with any top-tier model when you split the request across roles.
+
+A practical workflow:
+
+1. Use a top model (Gemini 3, Claude Opus, GPT-5) through the API or inside the IDE to lay down the architecture.
+2. Open the file directly in the editor and use the IDE's inline AI action (right-click or shortcut) so you never go through the chat surface.
+3. Pick any model the IDE exposes and give it the absolute minimum context: "fix this", "add this function", "review this", "complete this".
+4. Switch between Claude and GPT models as needed. Each will rewrite the whole file or the slice you described, often returning code that the chat surface would have refused.
+5. Once you have a strong architecture in place, every file in the project becomes easy to extend with restricted logic, because the model only sees a small, technical, context-free slice. There are also large public collections of jailbreak and logic-bypass prompts on GitHub if you want ready-made building blocks.
+
+On accounts and subscriptions: use the official trial period of every provider. When the trial ends, the same card can be used to register again on a fresh account. This is a legitimate way to keep evaluating models without locked-in pricing, and it is the kind of basic discipline that any builder on a tight budget needs.
+
+---
+
+## My Philosophy
+
+This section is the core of why I build SynapseNet.
+
+My philosophy is simple: use the corporations' own tools to bypass the corporations themselves.
+
+Every major AI lab today (OpenAI, Anthropic, Google, Meta, xAI) sells you access to a model that is trained, aligned, throttled, watermarked, logged, and monetized on their terms. They keep the architecture closed, the weights closed, the training data closed, and the policy closed. Then they tell you what you are allowed to build with it.
+
+I take a different position.
+
+If their API can write code, then their API can write the code that replaces them.
+
+If their model can plan, then their model can plan the network that routes around them.
+
+If their tooling can solve a CAPTCHA, classify an image, decompile a binary, or harvest a corpus, then their tooling can be used to build infrastructure that those same companies cannot see into, cannot rate-limit, and cannot revoke.
+
+That is the design principle behind SynapseNet.
+
+I am not building it just to "replace corporate AI" with another centralized service. That is the easy framing and it is the wrong one. The point is to build a network where the corporations themselves do not understand what they are looking at. Where their abuse models flag nothing because the traffic looks like normal API usage. Where the value flows between nodes long before any compliance team realizes a market exists. Where the agents (NAAN) keep mining intelligence, solving challenges, and routing knowledge through Tor and clearnet using the very SDKs and APIs the corporations sold me.
+
+The corporations gave me the saw. I am using it to cut down their fence.
+
+That is the philosophy. Everything else in this tutorial — the prompts, the IDE flow, the testing loop, the agent design, the bypass research in the SynapseNet releases — is just tactics that serve that one strategic goal:
+
+**Use the system to build the thing the system cannot stop.**
 
 ---
 <p align="center">
